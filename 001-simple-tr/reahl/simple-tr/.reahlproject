@@ -8,4 +8,17 @@
   <persisted>
     <class locator="simple_tr:TR"/>
   </persisted>
+
+  <deps purpose="test">
+    <thirdpartyegg name="pytest" minversion="3.0"/>
+    <egg name="reahl-tofu"/>
+    <egg name="reahl-stubble"/>
+    <egg name="reahl-sqlalchemysupport"/>
+    <egg name="reahl-sqlitesupport"/>
+    <egg name="reahl-web-declarative"/>
+    <egg name="reahl-domain"/>
+    <egg name="reahl-webdev"/>
+    <egg name="reahl-dev"/>
+  </deps>
+
 </project>

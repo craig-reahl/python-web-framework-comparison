@@ -1,3 +1,1 @@
-  unit setup -- check
-  unit setup -- -q pytest --addopts '-s --pyargs addressbook2_dev'
-  demosetup setup -- -q pytest --addopts '-s -o python_functions=demo_setup --pyargs addressbook2_dev'
+  unit setup -- -q pytest --addopts '-s --pyargs simple_tr_dev'
